@@ -60,7 +60,7 @@ public class CookingZone : MonoBehaviour
         GameManager.Instance.ShowCookingPanel();
         yield return new WaitForSeconds(3);
 
-        playerMove.hasDalgona = true;
+        playerMove.hasDalgona = true; //테스트 주석
         playerMove.hasSugar = false; // 요리 후 설탕 소모
         Debug.Log("요리가 완성되었습니다! 달고나를 얻었습니다.");
         GameManager.Instance.ShowCookPanel();
